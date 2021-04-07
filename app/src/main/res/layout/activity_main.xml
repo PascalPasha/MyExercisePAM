@@ -11,7 +11,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imgApotek"
+        android:id="@+id/imgmobil"
         android:layout_width="106dp"
         android:layout_height="83dp"
         android:layout_centerHorizontal="true"
@@ -19,7 +19,7 @@
         android:src="@drawable/iconlogin" />
 
     <androidx.cardview.widget.CardView
-        android:layout_below="@+id/imgApotek"
+        android:layout_below="@+id/imgmobil"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="5dp"
         android:layout_width="400dp"
@@ -34,11 +34,11 @@
             android:orientation="vertical"
             android:layout_marginTop="10dp">
             <TextView
-                android:id="@+id/titleApotek"
+                android:id="@+id/titlemobil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:text="@string/tAptk"
+                android:text="@string/tMobil"
                 android:textAlignment="center"
                 />
         </LinearLayout>
